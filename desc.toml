@@ -1,0 +1,5 @@
+Name = "First party"
+Location = "Nazareth"
+NumberOfOrganizers = 1
+OrganizersAddresses = ["0x286485b3026d5d817f1f444060516b439b13dd2b"]
+Deadline = 60
