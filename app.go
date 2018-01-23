@@ -245,8 +245,8 @@ func orgPublic(c *cli.Context) error {
 	if c.NArg() < 1 {
 		log.Fatal("Please give the public keys to add")
 	}
-	log.Lvl3("Org: Adding public keys", c.Args().Get(1))
-	str := c.Args().Get(1)
+	log.Lvl3("Org: Adding public keys", c.Args().Get(0))
+	str := c.Args().Get(0)
 	if !strings.HasPrefix(str, "[") {
 		str = "[" + str + "]"
 	}

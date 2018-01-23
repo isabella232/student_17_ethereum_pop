@@ -38,11 +38,11 @@ To get your account nonce, either use a block explorer like etherscan.io or :
 
 To set the configuration :
 
-`./popcontract org config "dest.toml"`
+`./popcontract org config "desc.toml"`
 
 To sign :
 
-`./popcontract org sign "private key"`
+`./popcontract org sign
 
 To sign whole configuration :
 
@@ -50,7 +50,7 @@ To sign whole configuration :
 
 To deposit new key set :
 
-`./popcontract org public "private key" "keyset"`
+`./popcontract org public "keyset"`
 
 To reach consensus :
 
