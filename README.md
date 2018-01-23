@@ -42,7 +42,7 @@ To set the configuration :
 
 To sign :
 
-`./popcontract org sign
+`./popcontract org sign`
 
 To sign whole configuration :
 
